@@ -20,6 +20,7 @@
 (depends-on "pandoc-mode")
 (depends-on "editorconfig")
 (depends-on "rvm")
+(depends-on "ace-window")
 
 
 

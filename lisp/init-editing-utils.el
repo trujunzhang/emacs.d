@@ -143,7 +143,8 @@
 
 (when (maybe-require-package 'avy)
   (autoload 'avy-goto-word-or-subword-1 "avy")
-  (global-set-key (kbd "C-c j") 'avy-goto-word-or-subword-1))
+  (global-set-key (kbd "C-c j") 'avy-goto-word-or-subword-1)
+  (global-set-key (kbd "s-w") 'ace-window))
 
 (require-package 'multiple-cursors)
 ;; multiple-cursors
