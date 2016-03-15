@@ -1,3 +1,8 @@
+;; Package Manager
+;; See ~Cask~ file for its configuration
+;; https://github.com/cask/cask
+(require 'cask "/usr/local/share/emacs/site-lisp/cask/cask.el")
+(cask-initialize)
 
 ;;; This file bootstraps the configuration, which is divided into
 ;;; a number of other files.
@@ -151,6 +156,8 @@
 ;; Locales (setting them earlier in this file doesn't work in X)
 ;;----------------------------------------------------------------------------
 (require 'init-locales)
+
+(require 'djzhang-mediawiki)
 
 (add-hook 'after-init-hook
           (lambda ()
