@@ -16,7 +16,6 @@
 (depends-on "company")
 (depends-on "slime")
 (depends-on "real-auto-save")
-(depends-on "multiple-cursors")
 (depends-on "restclient")
 (depends-on "pandoc-mode")
 (depends-on "editorconfig")
