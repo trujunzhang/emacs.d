@@ -56,7 +56,7 @@
 
 (require 'init-frame-hooks)
 (require 'init-xterm)
-(require 'init-themes)
+;; (require 'init-themes)
 (require 'init-osx-keys)
 (require 'init-gui-frames)
 (require 'init-dired)
@@ -157,6 +157,7 @@
 ;;----------------------------------------------------------------------------
 (require 'init-locales)
 
+(load-theme 'zenburn t)
 (require 'djzhang-mediawiki)
 
 (add-hook 'after-init-hook
