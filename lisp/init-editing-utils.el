@@ -142,6 +142,8 @@
 (global-set-key (kbd "C-x C-.") 'pop-global-mark)
 
 (when (maybe-require-package 'avy)
+  (setq avy-background t)
+  (setq avy-style 'at-full)
   (autoload 'avy-goto-word-or-subword-1 "avy")
   (global-set-key (kbd "C-c j") 'avy-goto-word-or-subword-1)
   (global-set-key (kbd "s-w") 'ace-window))
