@@ -6,7 +6,9 @@
 
 ;; djzhang's Lisps
 (depends-on "mediawiki")
+(depends-on "helm")
 (depends-on "projectile")
+(depends-on "helm-projectile")
 (depends-on "company")
 (depends-on "slime")
 (depends-on "real-auto-save")
@@ -15,5 +17,7 @@
 (depends-on "pandoc-mode")
 (depends-on "editorconfig")
 (depends-on "rvm")
+
+
 
 

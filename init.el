@@ -159,6 +159,9 @@
 
 (load-theme 'zenburn t)
 (require 'djzhang-mediawiki)
+(require 'prelude-company)
+(require 'prelude-helm-everywhere)
+;;(require 'prelude-helm)
 
 (add-hook 'after-init-hook
           (lambda ()
