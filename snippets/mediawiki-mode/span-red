@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: span-red
+# key: span
+# --
+<span style="color:red">
+$0
+</span>

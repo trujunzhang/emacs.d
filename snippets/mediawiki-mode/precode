@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: precode
+# key: pre
+# --
+<pre code="$1">
+$0
+</pre>
