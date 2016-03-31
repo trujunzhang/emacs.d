@@ -22,6 +22,8 @@
 (depends-on "rvm")
 (depends-on "ace-window")
 
+(depends-on "yasnippet")
+
 
 
 

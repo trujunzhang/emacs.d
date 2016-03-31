@@ -164,6 +164,7 @@
 (require 'prelude-company)
 (require 'prelude-helm-everywhere)
 (require 'prelude-helm)
+(require 'djzhang-yasnippet)
 
 (add-hook 'after-init-hook
           (lambda ()
