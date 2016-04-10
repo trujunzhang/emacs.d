@@ -7,6 +7,9 @@
 ;; Themes
 (depends-on "zenburn-theme")
 
+;; Common
+(depends-on "discover")
+
 ;; djzhang's Lisps
 (depends-on "mediawiki")
 (depends-on "helm")
@@ -23,6 +26,9 @@
 (depends-on "ace-window")
 
 (depends-on "yasnippet")
+
+(depends-on "groovy-mode")
+(depends-on "grails-projectile-mode")
 
 
 

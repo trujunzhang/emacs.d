@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: file-image
+# key: fimg
+# --
+[[$0|frame|none|alt=|caption 1]]

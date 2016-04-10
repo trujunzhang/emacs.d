@@ -165,6 +165,8 @@
 (require 'prelude-helm-everywhere)
 (require 'prelude-helm)
 (require 'djzhang-yasnippet)
+(require 'djzhang-grails)
+
 
 (add-hook 'after-init-hook
           (lambda ()
