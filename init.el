@@ -155,9 +155,15 @@
 ;;----------------------------------------------------------------------------
 ;; Locales (setting them earlier in this file doesn't work in X)
 ;;----------------------------------------------------------------------------
+(defvar prelude-dir (file-name-directory load-file-name)
+  "The root dir of the Emacs Prelude distribution.")
+(defvar prelude-savefile-dir (expand-file-name "savefile" prelude-dir)
+  "This folder stores all the automatically generated save/history-files.")
+
 (require 'init-locales)
 
 (load-theme 'zenburn t)
+(require 'prelude-editor)
 (require 'prelude-core)
 (require 'prelude-mode)
 (require 'djzhang-mediawiki)

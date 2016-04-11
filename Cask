@@ -10,6 +10,9 @@
 ;; Common
 (depends-on "discover")
 
+;; Code browser
+(depends-on "ecb")
+
 ;; djzhang's Lisps
 (depends-on "mediawiki")
 (depends-on "helm")
