@@ -166,11 +166,19 @@
 (require 'prelude-editor)
 (require 'prelude-core)
 (require 'prelude-mode)
-(require 'djzhang-mediawiki)
+
+;; Code auto
 (require 'prelude-company)
+(require 'djzhang-yasnippet)
+
+;; Project
 (require 'prelude-helm-everywhere)
 (require 'prelude-helm)
-(require 'djzhang-yasnippet)
+
+;; Code browser
+(require 'djzhang-ecb)
+
+(require 'djzhang-mediawiki)
 (require 'djzhang-grails)
 
 
